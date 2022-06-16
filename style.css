@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bg.jpg);			
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.header img{
+	width: 150px;
+	display: flex;
+	padding: 2% 6%;
+}
+.text-box{
+	color: #fff;
+	padding-top: 5%;
+	text-align: center;
+}
+.text-box h1{
+	font-size: 40px;
+}
+.text-box p{
+	margin: 80px 100px 40px;
+	font-size: 20px;
+	color: #fff;
+}
+
+/*---2---*/
+
+.body{
+	background-color: #2a2a72;
+	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.con{
+	display: flex;
+    align-items:center;
+}
+.con img{
+	width: 50%;
+	display: flex;
+	padding: 6% 6%;
+}
+.con h1{
+	color: #fff;
+	font-size: 50px;
+	float: right:
+}
+.title h1{
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 10%;
+}
+.tbl{
+	margin-top: 50px;
+	color: #fff;
+	text-align: center;
+}
+table, th, td{
+	border-collapse: separate;
+	border-spacing: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+/*--3--*/
+
+.contact h1{
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 10%;
+	padding-bottom: 50px;
+}
+.container{
+	width: 80%;
+	margin: 50px auto;
+}
+.contact-box{
+	background: #fff;
+	display: flex;
+}
+.contact-left{
+	flex-basis: 60%;
+	padding: 40px 60px:
+}
+.contact-right{
+	flex-basis: 40%;
+	padding: 40px:
+}
+h1{
+	margin-bottom: 10px;
+}
+.container p{
+	margin-bottom: 40px;
+}
+.input-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.input-row .input-group{
+	flex-basis: 45%;
+	color: #1c00b5;
+}
+input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-bottom: 5px;
+}
+textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 10px;
+	box-sizing: border-box;
+}
+label{
+	margin-bottom: 6px;
+	display: block;
+	color: #1c00b5;
+}
+button{
+	background: #1c00b5;
+	width: 100px;
+	border: none;
+	outline: none;
+	color: #fff;
+	height: 35px;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+.contact-left h3{
+	color: #1c00b5;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.contact-right h3{
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+tr td:first-child{
+	padding-right: 20px;
+}
+tr td{
+	padding-top: 20px;
+}
